@@ -1285,6 +1285,39 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
+
+.team #portfolio-flters {
+  padding: 0;
+  margin: 25px auto 25px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.team #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 18px 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  margin: 0 3px 10px 3px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 50px;
+}
+
+.team #portfolio-flters li:hover,
+.team #portfolio-flters li.filter-active {
+  color: #fff;
+  background: #0880e8;
+}
+
+.team #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
